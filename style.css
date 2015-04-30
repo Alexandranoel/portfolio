@@ -1,0 +1,179 @@
+
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(http://fonts.googleapis.com/css?family=Allura);
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans);
+
+header{
+  color:rosybrown;
+  margin-bottom: 3%;
+  text-align:center;
+  font-size:75px;
+  font-family: 'Allura', cursive;
+  background-color:whitesmoke;
+
+}
+
+nav a{
+  margin: 0 35px;
+  width:3%;
+  border-width:
+  display: inline-block;
+  padding:2%;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+nav{
+  border-top: dotted black 2px;
+  border-bottom: dotted black 2px;
+  padding: 10px;
+  width:90%;
+  margin: auto;
+  text-align: center;
+
+}
+body{
+  background-color:whitesmoke;
+}
+
+
+
+#contact{
+  text-align: left;
+  font-family: 'Allura', cursive;
+  color:rosybrown;
+  font-size:2em;
+  padding:10px;
+
+
+}
+#contactinfo{
+  text-align:left;
+  padding:10px;
+  font-family: 'Raleway', sans-serif;
+
+}
+#center{
+  color:rosybrown;
+  font-size: 50px;
+  font-family: 'Allura', cursive;
+  padding: 3px;
+  margin:10px;
+}
+#maincolumn{
+  margin-left:50px;
+  background-color:whitesmoke;
+  overflow:auto;
+}
+
+
+.subsection{
+  margin: 10px;
+  padding: 3px;
+  border: 20px;
+  font-family:'Raleway', sans-serif;
+  font-size: 15px;
+
+}
+.nextsection{
+  margin: 10px;
+  padding: 3px;
+  font-family:'Raleway', sans-serif;
+  font-size: 15px;
+}
+h2{
+  color:rosybrown;
+}
+#intro{
+  font-family:'Raleway', sans-serif;
+  font-size: 15px;
+
+}
+#allthesame{
+      font-size: 15px;
+      font-family:'Raleway', sans-serif;
+      padding:3px;
+      margin:10px;
+}
+p {
+  margin:5px;
+  margin-bottom:15px;
+    }
+
+ul {
+  margin:2px;
+}
+
+#background{
+  margin: 0px;
+  background-color:rosybrown;
+
+}
+#slide{
+  float:left;
+  padding: 30px;
+
+}
+#whoami{
+  font-size: 15px;
+  color: black;
+  font-family:'Raleway', sans-serif;
+  line-height:250%
+
+
+}
+#aboutmepage{
+  color:rosybrown;
+  font-size: 50px;
+  font-family: 'Allura', cursive;
+  padding: 3px;
+  margin:10px;
+
+}
+
+a:link{
+  color:rosybrown;
+  font-weight:600;
+}
+a{  color:rosybrown;
+  font-weight:600;
+
+}
+#social{
+  padding:30px;
+
+}
+#presentations{
+  width: 300px;
+  padding:15px;
+  margin:10%;
+  box-sizing:border-box;
+  float:left;
+  border: 5px solid rosybrown;
+  font-family:'Raleway', sans-serif;
+  clear:both;
+  line-height:250%;
+}
+#writingsamples{
+  width:300px;
+  padding-left:15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 85px;
+  margin:10%;
+  box-sizing:border-box;
+  float:left;
+  border: 5px solid rosybrown;
+  font-family:'Raleway', sans-serif;
+  clear:both;
+  line-height:250%;
+}
+
+.coloredtext{
+  color:rosybrown;
+  font-size: 30px;
+  font-family: 'Allura', cursive;
+  text-align:center;
+  font-weight:bold;
+
+}

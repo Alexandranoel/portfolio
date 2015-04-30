@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Portfolio</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="background">
+ <div id="maincolumn">
+  <div id="together">
+<header>
+  Alexandra Lee
+</header>
+
+<nav>
+    <a href="About.html"> About </a>
+    <a href="Resume.html"> Resume </a>
+    <a href="Portfolio.html"> Portfolio </a>
+    <a href="Contact.html"> Contact </a>
+  </nav>
+  <h2>
+    <div id="aboutmepage">
+    Who Am I?
+  </div>
+  </h2>
+
+  <img name="slide" src="amsterdam.jpg" />
+  <script language="JavaScript">
+    var i = 0;
+      var path = new Array();
+
+      // LIST OF IMAGES
+      path[0] = "amsterdam.jpg";
+      path[1] = "berlin.jpg";
+      path[2] = "paris.jpg";
+      path[3] = "prague.jpg";
+
+
+      function swapImage()
+      {
+        document.slide.src = path[i];
+        if(i < path.length - 1) i++; else i = 0;
+        setTimeout("swapImage()",3000);
+      }
+      window.onload=swapImage;
+  </script>
+
+
+  <div id="whoami">
+  As a Communications Major and Advertising and PR minor, I have had the privilege to develop a perspective on the world, and also learn to use that perspective to make a difference in my respective field.
+  My previous work knowledge has allowed me to gain experience in customer service and I have come to learn that I am extremely passionate about one thing in particular-people.
+  With the easy and outgoing personality I have, I find myself adapting well in new environments and find it simply enjoyable to meet new people.
+  I am often seen as someone who is not afraid to go outside the box, which allows me to apply my imagination and creativity to my work and projects.
+  I also pride myself in my ability to work under pressure and to meet deadlines without sacrificing the quality of my work.
+</div>
+
+<footer>
+  <div id="social">
+    <a href="https://www.facebook.com/alex.lee.50702"> <img src="facebook.png" alt="Alex Lee";> </a>
+    <a href="https://twitter.com/MisSingapore"> <img src="twitter.png" alt="Alex Lee";> </a>
+    <a href="https://www.pinterest.com/alexandranoel17/"> <img src="pinterest.png" alt="Alex Lee";> </a>
+    <a href="https://vimeo.com/user27218022"> <img src="vimeo.png" alt="Alex Lee";> </a>
+    <a href="https://www.youtube.com/channel/UClzdrPoRx16ZBoU-OQ9D8VA"> <img src="youtube.png" alt="Alex Lee";> </a>
+</div>
+</footer>
+
+</div>
+</div>
+
+
+
+</body>
+</head>
