@@ -111,7 +111,8 @@ ul {
 }
 #slide{
   float:left;
-  padding: 30px;
+  padding:10px;
+
 
 }
 #whoami{
@@ -119,6 +120,7 @@ ul {
   color: black;
   font-family:'Raleway', sans-serif;
   line-height:250%
+
 
 
 }
@@ -141,6 +143,7 @@ a{  color:rosybrown;
 }
 #social{
   padding:30px;
+  overflow:auto;
 
 }
 #presentations{
@@ -151,21 +154,17 @@ a{  color:rosybrown;
   float:left;
   border: 5px solid rosybrown;
   font-family:'Raleway', sans-serif;
-  clear:both;
   line-height:250%;
 }
 #writingsamples{
   width:300px;
-  padding-left:15px;
-  padding-right: 15px;
-  padding-top: 15px;
-  padding-bottom: 85px;
+  padding:15px;
+  padding:bottom:
   margin:10%;
   box-sizing:border-box;
   float:left;
   border: 5px solid rosybrown;
   font-family:'Raleway', sans-serif;
-  clear:both;
   line-height:250%;
 }
 
@@ -175,5 +174,11 @@ a{  color:rosybrown;
   font-family: 'Allura', cursive;
   text-align:center;
   font-weight:bold;
+
+}
+#footer{
+  overflow:auto;
+  clear:both;
+  margin: 20px;
 
 }
